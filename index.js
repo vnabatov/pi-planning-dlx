@@ -18,12 +18,14 @@ const stories = {
     },
     s2: {
         sp: 3,
+        //need to think about multiple deps
         dep: s1,
         team: null
     },
     s3: {
         sp: 4,
         dep: s1,
+        //need to think about multiple teams
         team: 'team2'
     },
     s4: {
